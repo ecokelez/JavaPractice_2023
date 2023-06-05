@@ -16,16 +16,16 @@ public class Q01_Modulus {
         System.out.println("Lutfen 5 basamakli sayi gırınız");
         int num=scan.nextInt();
 
-        int ilkIkı=num/1000;
-        int sonIkı=num%100;  // 100 e bolumunden kalanı verır.
+        int ilkIki=num/1000;
+        int sonIki=num%100;  // 100 e bolumunden kalanı verır.
 
-        int ilkIkıTop=(ilkIkı/10) + (ilkIkı%10);
-        System.out.println("ilkIkıTop = " + ilkIkıTop);
+        int ilkIkiTop=(ilkIki/10) + (ilkIki%10);
+        System.out.println("ilkIkıTop = " + ilkIkiTop);
 
-        int sonIkıTop=(sonIkı/10) + (sonIkı%10);
-        System.out.println("sonIkıTop = " + sonIkıTop);
+        int sonIkiTop=(sonIki/10) + (sonIki%10);
+        System.out.println("sonIkıTop = " + sonIkiTop);
 
-        System.out.println("sayıların toplamı : " + (ilkIkıTop+sonIkıTop));
+        System.out.println("sayıların toplamı : " + (ilkIkiTop+sonIkiTop));
 
 
 
