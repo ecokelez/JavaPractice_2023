@@ -1,5 +1,6 @@
 package day03;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Q09_NestedIF {
@@ -16,11 +17,19 @@ public class Q09_NestedIF {
 	 */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Lutfen yas bilginızı gırınız");
-        int yas = scan.nextInt();
+        System.out.println("Please enter your age");
+        int age = scan.nextInt();
 
+        if (age>= 70 ){
+            System.out.println("can vote three times");
+        } else if (age>=50 && age<70) {
+            System.out.println("can vote twice");
+        } else if (age>=18 && age<50) {
+            System.out.println("can vote once");
+        }else if (age>= 18){
+            System.out.println("eligible to vote");
+        }
 
-       }
-
+    }
 
     }
