@@ -2,7 +2,7 @@ package day02_3;
 
 import java.util.Scanner;
 
-public class J03 {
+public class J03_NestedTernary {
 /*
     Define final grade, solve with Nested Ternary
     'A' -> "Very Successful"
