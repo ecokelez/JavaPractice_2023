@@ -19,18 +19,11 @@ public class Q08_StringManipulation {
 
         Scanner scan=new Scanner(System.in);
         System.out.println("Lutfen bır kelıme gırınız");
-        String kelıme= scan.nextLine();
+        String kelime= scan.nextLine();
 
-        if (kelıme.length()>=3){
-            System.out.println(kelıme.substring(kelıme.length()-2));
-        }
-
-
-
-
-
-
-
+        if (kelime.length()>=3){
+            System.out.println(kelime.substring(2).length() - 2);
+        }else System.out.println(kelime);
 
 
        }

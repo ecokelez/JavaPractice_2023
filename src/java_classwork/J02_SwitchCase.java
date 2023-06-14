@@ -1,4 +1,4 @@
-package day02_3;
+package java_classwork;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class J02_SwitchCase {
         Scanner scan = new Scanner(System.in);
         System.out.println("Please enter your jobTitle");
         String jobTitle = scan.nextLine().toLowerCase();
-        System.out.println("jobTitle : " + jobTitle);
+        System.out.println("JobTitle : " + jobTitle);
 
         switch (jobTitle){
             case "qa" :
