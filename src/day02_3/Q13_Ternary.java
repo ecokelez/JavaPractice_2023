@@ -19,8 +19,8 @@ public class Q13_Ternary {
     //    }
 
 
-        String result = fiyat<10 ? "ucuz" :fiyat<20 ? "normal":"pahali";
-        System.out.println("result : "+ result);
+        String sonuc = fiyat<10 ? "ucuz" :fiyat<20 ? "normal":"pahali";
+        System.out.println("result : "+ sonuc);
     }
 
 
