@@ -19,11 +19,11 @@ public class QA02 {
         System.out.println("Lutfen bir String ifade giriniz");
         String str= scan.nextLine();
 
-        System.out.println("Lutfen bir sayı giriniz");
-        int sayı=scan.nextInt();
+        System.out.println("Lutfen bir sayi giriniz");
+        int sayi=scan.nextInt();
 
-        ilkHarSonHarf(str,sayı);
-        System.out.println(ilkHarSonHarf(str, sayı));
+        ilkHarSonHarf(str,sayi);
+        System.out.println(ilkHarSonHarf(str, sayi));
 
 
     }
