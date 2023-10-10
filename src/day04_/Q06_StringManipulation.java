@@ -20,13 +20,13 @@ public class Q06_StringManipulation {
         System.out.println(str1.concat(str2));
 
 
-        String kelımeIlkH=str1.replaceAll("0","");
-        String kelımeGeriyeK=str1.substring(1);
+        String kelimeIlkH=str1.replaceAll("0","");
+        String kelimeGeriyeK=str1.substring(1);
 
-        String ıkıncıkelımeIlkH=str2.replaceAll("0","");
-        String ıkncıKGerıyeK=str2.substring(1);
+        String  ikincikelimeIlkH=str2.replaceAll("0","");
+        String ikinciKGeriyeK=str2.substring(1);
 
-        System.out.println(kelımeGeriyeK.concat(ıkncıKGerıyeK));
+        System.out.println(kelimeGeriyeK.concat(ikinciKGeriyeK));
 
 
 

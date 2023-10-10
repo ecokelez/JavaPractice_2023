@@ -18,15 +18,18 @@ public class Q08_StringManipulation {
     public static void main(String[] args) {
 
         Scanner scan=new Scanner(System.in);
-        System.out.println("Lutfen bır kelıme gırınız");
+        System.out.println("Lutfen bır kelime gırınız");
         String kelime= scan.nextLine();
 
-        if (kelime.length()>=3){
-            System.out.println(kelime.substring(2).length() - 2);
+      if (kelime.length()>=3){
+            System.out.println(kelime.substring(kelime.length()-2)+
+                               kelime.substring(kelime.length()-2)+
+                                kelime.substring(kelime.length()-2));
         }else System.out.println(kelime);
 
 
-       }
+
+        }
     }
 
 

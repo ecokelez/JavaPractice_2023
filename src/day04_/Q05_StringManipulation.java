@@ -9,11 +9,11 @@ public class Q05_StringManipulation {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Ismınızı gırınız");
-        String ısım = scan.nextLine();
+        String isim = scan.nextLine();
         System.out.println("Soyısmınızı gırınız");
-        String soyısım = scan.nextLine();
+        String soyisim = scan.nextLine();
 
-        System.out.println("Ismınz buyuk harf : " + ısım.toUpperCase());
+        System.out.println("Ismınz buyuk harf : " + isim.toUpperCase());
 
 
     }

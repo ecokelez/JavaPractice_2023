@@ -6,12 +6,12 @@ public class Q03_SwitchCase {
     // Girilen uc haneli bir sayının okunusnu yazı ile yazdırınız.
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.println("Uc basmaklı brı sayı gırınız : ");
+        System.out.println("Uc basmaklı brı sayi gırınız : ");
 
-        int sayı = scan.nextInt();
-        int bırlerB = sayı % 10, onlarB = (sayı / 10) % 10, yuzlerB = sayı / 100;
+        int sayi = scan.nextInt();
+        int bırlerB = sayi % 10, onlarB = (sayi / 10) % 10, yuzlerB = sayi / 100;
 
-        if (sayı > 99 && sayı < 1000) {
+        if (sayi > 99 && sayi < 1000) {
             switch (yuzlerB) {
                 case 0: System.out.println("");break;
                 case 1: System.out.println("Yuz\t");break;

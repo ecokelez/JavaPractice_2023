@@ -9,10 +9,10 @@ public class Q10_Practice {
 
         Scanner scan=new Scanner(System.in);
         System.out.println("Float bır sayı gırınız");
-        float sayı= scan.nextFloat();
+        float sayi= scan.nextFloat();
 
-        sayı=2.55f;
-        short sayı1=(short) sayı;
+        sayi=2.55f;
+        short sayi1=(short) sayi;
 
 
     }

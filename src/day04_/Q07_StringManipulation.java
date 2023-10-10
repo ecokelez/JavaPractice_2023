@@ -21,13 +21,13 @@ public class Q07_StringManipulation {
         String  str1= "$13.99";
         String str2= "$10.55";
 
-         String sayı1=str1.replace("$","");
-         String sayı2=str2.replace("$","");
+         String sayi1=str1.replace("$","");
+         String sayi2=str2.replace("$","");
 
-          double sayı3=Double.parseDouble(sayı1);
-          double sayı4=Double.parseDouble(sayı2);
+          double sayi3=Double.parseDouble(sayi1);
+          double sayi4=Double.parseDouble(sayi2);
 
-          System.out.println("$"+ (sayı3+sayı4));
+          System.out.println("$"+ (sayi3+sayi4));
 
 
 
