@@ -7,9 +7,9 @@ public class Q01_StringManipulation {
 
         Scanner scan=new Scanner(System.in);
         System.out.println("isminizı ve soyisiminızı  girınız");
-        String ısım= scan.nextLine(), soyısım=scan.nextLine();   // multıple declaration
+        String isim= scan.nextLine(), soyisim=scan.nextLine();   // multıple declaration
 
-        String fullName=ısım.concat(" "+ soyısım).toUpperCase();
+        String fullName=isim.concat(" "+ soyisim).toUpperCase();
         System.out.println("fullName = " + fullName);
 
 

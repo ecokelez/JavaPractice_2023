@@ -21,9 +21,9 @@ public class Q04_StringM {
         String str= scan.nextLine();
 
         if (str.length()>=3){
-            System.out.println (str.substring(2).length()-2+
-                                str.substring(2).length()-2+
-                                str.substring(2).length()-2);
+            System.out.println (str.substring(str.length()-2)+
+                                str.substring(str.length()-2)+
+                                str.substring(str.length()-2));
 
         }else System.out.println(str);
 
