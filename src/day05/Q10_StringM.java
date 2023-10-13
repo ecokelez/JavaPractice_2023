@@ -46,6 +46,7 @@ public class Q10_StringM {
         */
 
         Scanner scan = new Scanner(System.in);
+        System.out.println("Bir string giriniz");
         String str = scan.nextLine();
         int bosluk = str.indexOf(' ');
 
