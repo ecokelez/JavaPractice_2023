@@ -22,13 +22,13 @@ public class J11_StringM {
         double secondNum = sc.nextInt();
 
         if (symbol == '+'){
-            System.out.println("Sum of the entered nums : " + (firstNum+secondNum));
+            System.out.println("Sum of the entered nums :" + (firstNum+secondNum));
         } else if (symbol == '-') {
-            System.out.println("Subtraction of the entered nums : " + (firstNum - secondNum));
+            System.out.println("Subtraction of the entered nums: " + (firstNum - secondNum));
         } else if (symbol == '*') {
-            System.out.println("Multiplication of the entered nums : " + (firstNum * secondNum));
+            System.out.println("Multiplication of the entered nums: " + (firstNum * secondNum));
         }else if (symbol == '/'){
-            System.out.println("Division of the entered nums : " + (firstNum / secondNum));
+            System.out.println("Division of the entered nums: " + (firstNum / secondNum));
         }
     }
 }
