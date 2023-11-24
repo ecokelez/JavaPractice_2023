@@ -22,7 +22,6 @@ public class J12_ForLoop {
                 System.out.println(i);
                 sum += i;
             }
-
         }
         System.out.println("Number of sum: " + sum);
     }
